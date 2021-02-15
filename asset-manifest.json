@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/testPortolio/static/css/main.5b1d16a0.chunk.css",
-    "main.js": "/testPortolio/static/js/main.a89174b4.chunk.js",
-    "main.js.map": "/testPortolio/static/js/main.a89174b4.chunk.js.map",
+    "main.css": "/testPortolio/static/css/main.693c8aa6.chunk.css",
+    "main.js": "/testPortolio/static/js/main.0ca558cd.chunk.js",
+    "main.js.map": "/testPortolio/static/js/main.0ca558cd.chunk.js.map",
     "runtime-main.js": "/testPortolio/static/js/runtime-main.97bc75a3.js",
     "runtime-main.js.map": "/testPortolio/static/js/runtime-main.97bc75a3.js.map",
     "static/css/2.30fbed10.chunk.css": "/testPortolio/static/css/2.30fbed10.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.e88b16f6.chunk.js.map": "/testPortolio/static/js/3.e88b16f6.chunk.js.map",
     "index.html": "/testPortolio/index.html",
     "static/css/2.30fbed10.chunk.css.map": "/testPortolio/static/css/2.30fbed10.chunk.css.map",
-    "static/css/main.5b1d16a0.chunk.css.map": "/testPortolio/static/css/main.5b1d16a0.chunk.css.map",
+    "static/css/main.693c8aa6.chunk.css.map": "/testPortolio/static/css/main.693c8aa6.chunk.css.map",
     "static/js/2.014ea547.chunk.js.LICENSE.txt": "/testPortolio/static/js/2.014ea547.chunk.js.LICENSE.txt",
+    "static/media/CVMehdi2021.b076df85.pdf": "/testPortolio/static/media/CVMehdi2021.b076df85.pdf",
     "static/media/Card.css": "/testPortolio/static/media/vf_men_in_black_slider_7636.jpeg_north_375x310_.dd5fdeeb.jpg",
     "static/media/LETTREmodif.6a62940e.png": "/testPortolio/static/media/LETTREmodif.6a62940e.png",
     "static/media/Octocat.237e2214.png": "/testPortolio/static/media/Octocat.237e2214.png",
     "static/media/banner_img.a779e6bf.svg": "/testPortolio/static/media/banner_img.a779e6bf.svg",
     "static/media/bootstrap.d5210cde.png": "/testPortolio/static/media/bootstrap.d5210cde.png",
     "static/media/css4.c0bf8c44.png": "/testPortolio/static/media/css4.c0bf8c44.png",
-    "static/media/cv2021.4d05c6cd.pdf": "/testPortolio/static/media/cv2021.4d05c6cd.pdf",
     "static/media/homme.9f3edb31.png": "/testPortolio/static/media/homme.9f3edb31.png",
     "static/media/html.33745ead.png": "/testPortolio/static/media/html.33745ead.png",
     "static/media/javascript.ba40d6a9.svg": "/testPortolio/static/media/javascript.ba40d6a9.svg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.97bc75a3.js",
     "static/css/2.30fbed10.chunk.css",
     "static/js/2.014ea547.chunk.js",
-    "static/css/main.5b1d16a0.chunk.css",
-    "static/js/main.a89174b4.chunk.js"
+    "static/css/main.693c8aa6.chunk.css",
+    "static/js/main.0ca558cd.chunk.js"
   ]
 }
