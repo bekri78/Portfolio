@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/testPortolio/static/css/main.693c8aa6.chunk.css",
-    "main.js": "/testPortolio/static/js/main.0ca558cd.chunk.js",
-    "main.js.map": "/testPortolio/static/js/main.0ca558cd.chunk.js.map",
-    "runtime-main.js": "/testPortolio/static/js/runtime-main.97bc75a3.js",
-    "runtime-main.js.map": "/testPortolio/static/js/runtime-main.97bc75a3.js.map",
+    "main.css": "/testPortolio/static/css/main.2a01bbcc.chunk.css",
+    "main.js": "/testPortolio/static/js/main.7c95a12d.chunk.js",
+    "main.js.map": "/testPortolio/static/js/main.7c95a12d.chunk.js.map",
+    "runtime-main.js": "/testPortolio/static/js/runtime-main.9cbe4881.js",
+    "runtime-main.js.map": "/testPortolio/static/js/runtime-main.9cbe4881.js.map",
     "static/css/2.30fbed10.chunk.css": "/testPortolio/static/css/2.30fbed10.chunk.css",
-    "static/js/2.014ea547.chunk.js": "/testPortolio/static/js/2.014ea547.chunk.js",
-    "static/js/2.014ea547.chunk.js.map": "/testPortolio/static/js/2.014ea547.chunk.js.map",
-    "static/js/3.e88b16f6.chunk.js": "/testPortolio/static/js/3.e88b16f6.chunk.js",
-    "static/js/3.e88b16f6.chunk.js.map": "/testPortolio/static/js/3.e88b16f6.chunk.js.map",
+    "static/js/2.8aa4b01c.chunk.js": "/testPortolio/static/js/2.8aa4b01c.chunk.js",
+    "static/js/2.8aa4b01c.chunk.js.map": "/testPortolio/static/js/2.8aa4b01c.chunk.js.map",
+    "static/js/3.3ad530a1.chunk.js": "/testPortolio/static/js/3.3ad530a1.chunk.js",
+    "static/js/3.3ad530a1.chunk.js.map": "/testPortolio/static/js/3.3ad530a1.chunk.js.map",
     "index.html": "/testPortolio/index.html",
     "static/css/2.30fbed10.chunk.css.map": "/testPortolio/static/css/2.30fbed10.chunk.css.map",
-    "static/css/main.693c8aa6.chunk.css.map": "/testPortolio/static/css/main.693c8aa6.chunk.css.map",
-    "static/js/2.014ea547.chunk.js.LICENSE.txt": "/testPortolio/static/js/2.014ea547.chunk.js.LICENSE.txt",
+    "static/css/main.2a01bbcc.chunk.css.map": "/testPortolio/static/css/main.2a01bbcc.chunk.css.map",
+    "static/js/2.8aa4b01c.chunk.js.LICENSE.txt": "/testPortolio/static/js/2.8aa4b01c.chunk.js.LICENSE.txt",
     "static/media/CVMehdi2021.b076df85.pdf": "/testPortolio/static/media/CVMehdi2021.b076df85.pdf",
     "static/media/Card.css": "/testPortolio/static/media/vf_men_in_black_slider_7636.jpeg_north_375x310_.dd5fdeeb.jpg",
-    "static/media/LETTREmodif.6a62940e.png": "/testPortolio/static/media/LETTREmodif.6a62940e.png",
+    "static/media/LETTREmodif.5ce1d061.png": "/testPortolio/static/media/LETTREmodif.5ce1d061.png",
     "static/media/Octocat.237e2214.png": "/testPortolio/static/media/Octocat.237e2214.png",
     "static/media/banner_img.a779e6bf.svg": "/testPortolio/static/media/banner_img.a779e6bf.svg",
     "static/media/bootstrap.d5210cde.png": "/testPortolio/static/media/bootstrap.d5210cde.png",
@@ -36,10 +36,10 @@
     "static/media/wordpress.c960fbfe.png": "/testPortolio/static/media/wordpress.c960fbfe.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.97bc75a3.js",
+    "static/js/runtime-main.9cbe4881.js",
     "static/css/2.30fbed10.chunk.css",
-    "static/js/2.014ea547.chunk.js",
-    "static/css/main.693c8aa6.chunk.css",
-    "static/js/main.0ca558cd.chunk.js"
+    "static/js/2.8aa4b01c.chunk.js",
+    "static/css/main.2a01bbcc.chunk.css",
+    "static/js/main.7c95a12d.chunk.js"
   ]
 }
