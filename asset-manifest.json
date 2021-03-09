@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.75e614eb.chunk.css",
-    "main.js": "/Portfolio/static/js/main.ef90532a.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.ef90532a.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.0eaf2d6b.chunk.css",
+    "main.js": "/Portfolio/static/js/main.fe2540d5.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.fe2540d5.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.1b783012.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1b783012.js.map",
     "static/css/2.30fbed10.chunk.css": "/Portfolio/static/css/2.30fbed10.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.77858dc1.chunk.js.map": "/Portfolio/static/js/3.77858dc1.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.30fbed10.chunk.css.map": "/Portfolio/static/css/2.30fbed10.chunk.css.map",
-    "static/css/main.75e614eb.chunk.css.map": "/Portfolio/static/css/main.75e614eb.chunk.css.map",
+    "static/css/main.0eaf2d6b.chunk.css.map": "/Portfolio/static/css/main.0eaf2d6b.chunk.css.map",
     "static/js/2.c4370ae1.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c4370ae1.chunk.js.LICENSE.txt",
     "static/media/BEKRI-MEHDI-2021.3de6554e.pdf": "/Portfolio/static/media/BEKRI-MEHDI-2021.3de6554e.pdf",
     "static/media/Card.css": "/Portfolio/static/media/vf_men_in_black_slider_7636.jpeg_north_375x310_.dd5fdeeb.jpg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.1b783012.js",
     "static/css/2.30fbed10.chunk.css",
     "static/js/2.c4370ae1.chunk.js",
-    "static/css/main.75e614eb.chunk.css",
-    "static/js/main.ef90532a.chunk.js"
+    "static/css/main.0eaf2d6b.chunk.css",
+    "static/js/main.fe2540d5.chunk.js"
   ]
 }
