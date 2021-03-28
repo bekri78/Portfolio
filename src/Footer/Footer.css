@@ -1,0 +1,72 @@
+.footer-area-two {
+    background-color: rgb(61, 59, 90);
+    padding: 20px 0;
+ 
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+ 
+    .list_style {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    .li0{
+        animation-fill-mode: both;
+        animation-duration: 1000ms;
+        animation-delay: 0ms;
+        animation-iteration-count: 1;
+        opacity: 1;
+        animation-name: react-icon;
+    }
+    .li1{
+        animation-fill-mode: both;
+        animation-duration: 1000ms;
+        animation-delay: 0ms;
+        animation-iteration-count: 1;
+        opacity: 1;
+        animation-name: react-icon;
+        
+    }
+    .li2{
+        animation-fill-mode: both;
+    animation-duration: 1414ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: react-icon;
+        
+    }
+    .li3{
+
+        animation-fill-mode: both;
+    animation-duration: 1682ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: react-icon;
+        
+    }
+
+    @keyframes react-icon{
+        0% {
+            opacity: 0;
+            transform: translate3d(0px, -100%, 0px);
+        }
+   
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    

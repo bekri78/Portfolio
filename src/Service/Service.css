@@ -1,0 +1,182 @@
+.containerService {
+    margin-top: 30px;
+}
+
+#portfolio {
+    height: 60px;
+}
+
+.service_img {
+    text-align: left;
+}
+
+div {
+    display: block;
+}
+
+.service_img img {
+    width: 500px;
+    margin: 10px;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+#service {
+    padding-top: 90px;
+}
+
+.service_img {
+    text-align: left;
+}
+
+.service_content p {
+    padding-top: 20px;
+
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media (min-width: 992px) {
+
+    .col-lg-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}
+
+.service_content .nav-tabs {
+    padding-right: 0px;
+    border: 0;
+    padding-top: 0;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.service_content .nav-tabs li {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.service_content .nav-tabs li a.active,
+.service_content .nav-tabs li a:hover {
+    color: #0db3c7;
+    background: transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.service_content .nav-tabs li a {
+    font-weight: 600;
+    color: #040c2c;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    -webkit-transition: color .2s linear;
+    transition: color .2s linear;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-top: 0;
+}
+
+
+/* RESPONSIVE*/
+
+@media (max-width: 768px) {
+    .containerService {
+        max-width: 720px;
+        margin-top: 300px;
+    }
+
+    .service_content {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerService {
+        max-width: 540px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .service_img {
+        text-align: center;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .service_content {
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .containerService {
+        padding: 120px;
+    }
+}
+
+#portfolio {
+    margin-bottom: -80px;
+}
