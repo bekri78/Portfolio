@@ -1,0 +1,23 @@
+const dataSkills = [
+  "html",
+  "css",
+  "javascript",
+  "jquery",
+  "react js",
+  "bootstrap",
+  "material Ui",
+  "ant Design",
+  "firebase",
+  "heroku",
+  "mongoDB Atlas",
+  "node js",
+  "express",
+  "stripe",
+  "i18n",
+  "wordpress",
+  "git",
+  "github",
+  "jira",
+  "agile",
+];
+export default dataSkills;
