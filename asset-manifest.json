@@ -1,32 +1,35 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c9a6c0d7.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c28ed635.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c28ed635.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.b3a99d4c.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b3a99d4c.js.map",
-    "static/css/2.08d7b287.chunk.css": "/Portfolio/static/css/2.08d7b287.chunk.css",
-    "static/js/2.92e69294.chunk.js": "/Portfolio/static/js/2.92e69294.chunk.js",
-    "static/js/2.92e69294.chunk.js.map": "/Portfolio/static/js/2.92e69294.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.bedc1024.chunk.css",
+    "main.js": "/Portfolio/static/js/main.63b40e63.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.63b40e63.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.0bc02b88.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.0bc02b88.js.map",
+    "static/css/2.21b82000.chunk.css": "/Portfolio/static/css/2.21b82000.chunk.css",
+    "static/js/2.a8b2c18b.chunk.js": "/Portfolio/static/js/2.a8b2c18b.chunk.js",
+    "static/js/2.a8b2c18b.chunk.js.map": "/Portfolio/static/js/2.a8b2c18b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/2.08d7b287.chunk.css.map": "/Portfolio/static/css/2.08d7b287.chunk.css.map",
-    "static/css/main.c9a6c0d7.chunk.css.map": "/Portfolio/static/css/main.c9a6c0d7.chunk.css.map",
-    "static/js/2.92e69294.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.92e69294.chunk.js.LICENSE.txt",
-    "static/media/BEKRI-MEHDI-DEV.b0056da4.pdf": "/Portfolio/static/media/BEKRI-MEHDI-DEV.b0056da4.pdf",
+    "static/css/2.21b82000.chunk.css.map": "/Portfolio/static/css/2.21b82000.chunk.css.map",
+    "static/css/main.bedc1024.chunk.css.map": "/Portfolio/static/css/main.bedc1024.chunk.css.map",
+    "static/js/2.a8b2c18b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a8b2c18b.chunk.js.LICENSE.txt",
+    "static/media/BEKRI_MEHDI.9028b5a8.pdf": "/Portfolio/static/media/BEKRI_MEHDI.9028b5a8.pdf",
     "static/media/LETTREmodif.5ce1d061.png": "/Portfolio/static/media/LETTREmodif.5ce1d061.png",
     "static/media/Moi.232f0295.png": "/Portfolio/static/media/Moi.232f0295.png",
     "static/media/banner_img.70ff8e76.svg": "/Portfolio/static/media/banner_img.70ff8e76.svg",
     "static/media/homme.9f3edb31.png": "/Portfolio/static/media/homme.9f3edb31.png",
+    "static/media/loc.af3dfd80.svg": "/Portfolio/static/media/loc.af3dfd80.svg",
+    "static/media/Map.css": "/Portfolio/static/media/marker.195c5475.png",
     "static/media/ombre.172b7d90.png": "/Portfolio/static/media/ombre.172b7d90.png",
     "static/media/service.67717712.bcb75c94.svg": "/Portfolio/static/media/service.67717712.bcb75c94.svg",
     "static/media/table.14d9cf11.png": "/Portfolio/static/media/table.14d9cf11.png",
-    "static/media/telephone.0e034576.svg": "/Portfolio/static/media/telephone.0e034576.svg"
+    "static/media/telephone.0e034576.svg": "/Portfolio/static/media/telephone.0e034576.svg",
+    "static/media/transport.b031a07f.svg": "/Portfolio/static/media/transport.b031a07f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3a99d4c.js",
-    "static/css/2.08d7b287.chunk.css",
-    "static/js/2.92e69294.chunk.js",
-    "static/css/main.c9a6c0d7.chunk.css",
-    "static/js/main.c28ed635.chunk.js"
+    "static/js/runtime-main.0bc02b88.js",
+    "static/css/2.21b82000.chunk.css",
+    "static/js/2.a8b2c18b.chunk.js",
+    "static/css/main.bedc1024.chunk.css",
+    "static/js/main.63b40e63.chunk.js"
   ]
 }
