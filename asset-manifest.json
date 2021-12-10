@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.85235f72.chunk.css",
-    "main.js": "/Portfolio/static/js/main.65a22878.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.65a22878.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.671f25a7.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.671f25a7.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.0bc02b88.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.0bc02b88.js.map",
     "static/css/2.21b82000.chunk.css": "/Portfolio/static/css/2.21b82000.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.21b82000.chunk.css.map": "/Portfolio/static/css/2.21b82000.chunk.css.map",
     "static/css/main.85235f72.chunk.css.map": "/Portfolio/static/css/main.85235f72.chunk.css.map",
     "static/js/2.a8b2c18b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a8b2c18b.chunk.js.LICENSE.txt",
-    "static/media/BEKRI_MEHDI.9028b5a8.pdf": "/Portfolio/static/media/BEKRI_MEHDI.9028b5a8.pdf",
+    "static/media/BEKRI_MEHDI_CV.880b8754.pdf": "/Portfolio/static/media/BEKRI_MEHDI_CV.880b8754.pdf",
     "static/media/LETTREmodif.5ce1d061.png": "/Portfolio/static/media/LETTREmodif.5ce1d061.png",
     "static/media/Moi.232f0295.png": "/Portfolio/static/media/Moi.232f0295.png",
     "static/media/banner_img.70ff8e76.svg": "/Portfolio/static/media/banner_img.70ff8e76.svg",
@@ -30,6 +30,6 @@
     "static/css/2.21b82000.chunk.css",
     "static/js/2.a8b2c18b.chunk.js",
     "static/css/main.85235f72.chunk.css",
-    "static/js/main.65a22878.chunk.js"
+    "static/js/main.671f25a7.chunk.js"
   ]
 }
