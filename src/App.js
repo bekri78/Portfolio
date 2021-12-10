@@ -5,6 +5,7 @@ import Service from "./Service/Service.jsx";
 import Portfolio from "./Portfolio/Portfolio.jsx";
 import Skills from "./Skills/Skills.jsx";
 import Apropos from "./Apropos/Apropos.jsx";
+import Distance from "./Distance/Distance";
 import Form from "./Form/Form.jsx";
 import Footer from "./Footer/Footer.jsx";
 import "./App.css";
@@ -47,6 +48,7 @@ function App() {
         <Portfolio />
         <Skills />
         <Apropos />
+        <Distance />
         <Form />
         <Footer />
       </div>
@@ -55,9 +57,3 @@ function App() {
 }
 
 export default App;
-
-// changeWord={(e) =>
-//   setTheme(
-//     theme.mode === "dark" ? { mode: "light" } : { mode: "dark" }
-//   )
-// }

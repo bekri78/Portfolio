@@ -3,7 +3,7 @@ import "./Apropos.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import styled from "styled-components";
 import Moi from "./ImgApropos/Moi.png";
-import Pdf from "./ImgApropos/MEHDI_BEKRI_2021.pdf";
+import Pdf from "./ImgApropos/BEKRI_MEHDI.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -62,7 +62,7 @@ function Apropos() {
             <P>
               J'ai par la suite engagé une reconversion professionnel
               à la WILD CODE SCOOL sur les technologies
-              REACT/NODE  afin de parfaire mes connaissances
+              REACT/NODE afin de parfaire mes connaissances
               dans le domaine du front et du web
             </P>
             <Button

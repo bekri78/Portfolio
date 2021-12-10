@@ -1,0 +1,14 @@
+.transport{
+width: 80%;
+
+}
+
+
+.conteneur-transport{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+ 
+    align-items: center;
+}
