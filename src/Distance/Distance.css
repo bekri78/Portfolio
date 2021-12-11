@@ -12,3 +12,9 @@ width: 80%;
  
     align-items: center;
 }
+
+.mapboxgl-map {
+    
+     overflow:initial !important
+    
+}

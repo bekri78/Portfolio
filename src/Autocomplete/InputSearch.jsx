@@ -91,7 +91,7 @@ export default function PredictionsOnInputChange(props) {
 
         <Button
           variant="primary"
-          style={{ width: "31%" }}
+          style={{ width: "31%", marginTop:5 }}
           onClick={() => {
             props.latUser(latitudeUser);
             props.lngUser(longitudeUser); 

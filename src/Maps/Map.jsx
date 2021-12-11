@@ -240,17 +240,17 @@ function Map() {
       />
         
          
-      {duree && kilometre && nativia && (
+      {duree && (
         <div style = {{ display:'flex ', alignItems:'center', justifyContent:'space-around', width:'100%'}}>
           <p>Distance : {kilometre}km </p>
           <p>En voiture : {duree} </p>
-          <p>En transport : {nativia} </p>
+          <p>En transport : {nativia ? nativia : 'Indisponible'} </p>
         </div>
       )}
       {map && (
-        <div style={{ height: "800px", width: "100%" }}>
+        <div style={{ height: "100%", width: "100%" }}>
           <div
-            style={{ height: "500px", width: "100%" }}
+            style={{ height: "100%", width: "100%" }}
             ref={mapElement}
             className="map"
           ></div>

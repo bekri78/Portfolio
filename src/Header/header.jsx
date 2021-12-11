@@ -46,6 +46,8 @@ function Header(props) {
 
           <Nav.Link href="#aPropos" style={navigation}>
             A propos
+          </Nav.Link> <Nav.Link href="#map" style={navigation}>
+            Maps
           </Nav.Link>
           <NavDropdown title="Theme" id="collasible-nav-dropdown">
             <NavDropdown.Item

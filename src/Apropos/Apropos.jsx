@@ -3,7 +3,7 @@ import "./Apropos.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import styled from "styled-components";
 import Moi from "./ImgApropos/Moi.png";
-import Pdf from "./ImgApropos/BEKRI_MEHDI.pdf";
+import Pdf from "./ImgApropos/BEKRI_MEHDI_CV.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
