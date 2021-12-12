@@ -66,7 +66,7 @@ export default function PredictionsOnInputChange(props) {
 
   return (
     <>
-      <form id="form">
+      <form id="forme">
         <input
           id="inputAsress"
           placeholder="Entrez une adresse..."
@@ -91,16 +91,18 @@ export default function PredictionsOnInputChange(props) {
 
         <Button
           variant="primary"
-          style={{ width: "31%", marginTop:5 }}
+          className="btnLocation"
+           
           onClick={() => {
             props.latUser(latitudeUser);
             props.lngUser(longitudeUser); 
+            setSelectedPrediction('Votre Position')
          
           }}
           
           disabled={longitudeUser && latitudeUser !== null ? false : true }
         >
-          Utiliser ma position
+          Utiliser  votre position
         </Button>
         <p className="adresse">
           Votre Selection : {selectedPrediction || "Aucune"}

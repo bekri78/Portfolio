@@ -23,11 +23,17 @@ les mieux adaptées pour nous retrouver.
 
             <img   className ='transport' src={Transport} alt=" transport" />
             </div>
+           
           </Col>
-          <Col xs="12" sm="12" md="6" lg="6" className='conteneur-transport' >
-            <Map />
-          </Col>
+          <Col xs="12" sm="12" md="6" lg="6" >
+        <Map/>
+        </Col>
         </Row>
+        
+         
+         
+ 
+     
       </Container>
     </section>
   );

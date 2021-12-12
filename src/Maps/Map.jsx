@@ -132,7 +132,7 @@ function Map() {
 
     const addMarker = () => {
       const popupOffset = {
-        bottom: [0, -25],
+        bottom: [0, -55],
       };
       const popup = new tt.Popup({ offset: popupOffset }).setHTML(
         "Je suis ici !"
@@ -229,7 +229,7 @@ function Map() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ lngAdresse, latAdresse]);
   return (
-    <>
+     <div className="map_conteneur">
       <PredictionsOnInputChange
         newLng={(lng) => setLngAdresse(lng)}
         newLat={(lat) => setLatAdresse(lat)}
@@ -257,7 +257,7 @@ function Map() {
         </div>
       )}
        
-    </>
+    </div>
   );
 }
 

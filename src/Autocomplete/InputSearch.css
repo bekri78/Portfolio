@@ -15,7 +15,7 @@ adresse {
   .btnSearch {
     padding: 2px;
   }
-  #form {
+  #forme {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -25,3 +25,26 @@ adresse {
   .adresse {
     padding-top: 5%;
   }
+
+
+  .btnLocation{
+    width: 40%;
+    margin-top: 5px;
+
+  }
+
+  @media (max-width: 472px) { 
+    .btnLocation{
+      width: 45%;
+     
+  
+    }
+}
+ 
+@media (max-width: 320px) { 
+  .btnLocation{
+    width: 65%;
+   
+
+  }
+}
