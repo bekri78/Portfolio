@@ -31,6 +31,7 @@ export default function PredictionsOnInputChange(props) {
     if (prensentCoordonate) {
       props.newLat(coordonnateLat);
       props.newLng(coordonnateLng);
+      props.animationAffichage(true)
     }
   }, [coordonnateLat, coordonnateLng]);
 
@@ -97,6 +98,7 @@ export default function PredictionsOnInputChange(props) {
             props.latUser(latitudeUser);
             props.lngUser(longitudeUser); 
             setSelectedPrediction('Votre Position')
+            props.animationAffichage(true)
          
           }}
           

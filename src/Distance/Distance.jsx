@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Map from "../Maps/Map";
+ 
 import Transport from "./img/transport.svg";
 import './Distance.css'
 
@@ -29,6 +30,8 @@ les mieux adaptées pour nous retrouver.
         <Map/>
         </Col>
         </Row>
+
+      
         
          
          

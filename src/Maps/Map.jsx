@@ -2,13 +2,13 @@ import { useEffect, useState, useRef } from "react";
 import * as tt from "@tomtom-international/web-sdk-maps";
 import * as ttapi from "@tomtom-international/web-sdk-services";
 import "./Map.css";
-import {formatDistanceStrict } from "date-fns";
+import { formatDistanceStrict } from "date-fns";
 import { fr } from "date-fns/locale";
- 
+import Lottifile from "../LottieFile/Lottifile";
 
 import "@tomtom-international/web-sdk-maps/dist/maps.css";
 import PredictionsOnInputChange from "../Autocomplete/InputSearch";
- 
+
 let username = "58249dcd-3769-4a99-9d86-53902427531e";
 
 function Map() {
@@ -16,13 +16,14 @@ function Map() {
   const [map, setMap] = useState({});
   const [lngAdresse, setLngAdresse] = useState(null);
   const [latAdresse, setLatAdresse] = useState(null);
- 
+
   const [kilometre, setKilometre] = useState();
   const [duree, setDuree] = useState();
-  const [zoom, setZoom] = useState(12);
+
   const [nativia, setNativia] = useState();
-   
-  const latMoi = 48.938777923583984; 
+  const [animation, setAnimation] = useState(false);
+
+  const latMoi = 48.938777923583984;
   const lgnMoi = 2.3733909130096436;
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -98,10 +99,12 @@ function Map() {
   };
 
   useEffect(() => {
-    if (kilometre > 0) {
-      setZoom(10);
+    if (animation === true) {
+      setTimeout(() => {
+        setAnimation(false);
+      }, 8000);
     }
-  }, [kilometre]);
+  }, [animation]);
 
   useEffect(() => {
     const origin = {
@@ -123,12 +126,12 @@ function Map() {
         trafficFlow: true,
       },
       center: [lgnMoi, latMoi],
-      zoom: zoom,
+      zoom: 12,
     });
 
+ 
+      setMap(map);
     
-    setMap(map);
-     
 
     const addMarker = () => {
       const popupOffset = {
@@ -167,7 +170,6 @@ function Map() {
           .then((matrixAPIResults) => {
             const results = matrixAPIResults.matrix[0];
 
-           
             setKilometre(
               matrixAPIResults.matrix[0][0]["response"]["routeSummary"]
                 .lengthInMeters / 1000
@@ -217,46 +219,47 @@ function Map() {
       });
     };
 
-    if (
-      lngAdresse !== null &&
-      latAdresse !== null 
-    ) {
+    if (lngAdresse !== null && latAdresse !== null) {
       recalculateRoutes();
       addAdresseMarker(map);
       Nativia();
     }
     return () => map.remove();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [ lngAdresse, latAdresse]);
+  }, [lngAdresse, latAdresse]);
   return (
-     <div className="map_conteneur">
+    <div className="map_conteneur">
       <PredictionsOnInputChange
         newLng={(lng) => setLngAdresse(lng)}
         newLat={(lat) => setLatAdresse(lat)}
         lngUser={(lng) => setLngAdresse(lng)}
         latUser={(lat) => setLatAdresse(lat)}
-       
-        
+        animationAffichage={(ok) => setAnimation(ok)}
       />
-        
-         
+
       {duree && (
-        <div style = {{ display:'flex ', alignItems:'center', justifyContent:'space-around', width:'100%'}}>
+        <div
+          style={{
+            display: animation ? "none" : "flex",
+            alignItems: "center",
+            justifyContent: "space-around",
+            width: "100%",
+          }}
+        >
           <p>Distance : {kilometre}km </p>
           <p>En voiture : {duree} </p>
-          <p>En transport : {nativia ? nativia : 'Indisponible'} </p>
+          <p>En transport : {nativia ? nativia : "Indisponible"} </p>
         </div>
       )}
-      {map && (
-        <div style={{ height: "100%", width: "100%" }}>
-          <div
-            style={{ height: "100%", width: "100%" }}
-            ref={mapElement}
-            className="map"
-          ></div>
-        </div>
-      )}
-       
+
+      <div style={{ height: "100%", width: "100%", position: animation ?'absolute': 'relative', left: animation ? '-250%':'0'}}   ref={mapElement} >
+      
+      </div>
+        {map && animation && (
+          <div style={{ height: "100%", width: "100%" }}>
+            <Lottifile />
+          </div>
+        )}
     </div>
   );
 }
