@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 import SpeechRecognitionExample from "../Speech/reconnaissanceVocale";
 import emailjs from "emailjs-com";
 import { Modal, Button, Popover, notification } from "antd";
+import { useTranslation } from "react-i18next";
 import { AudioOutlined } from "@ant-design/icons";
 import Form from "react-bootstrap/Form";
 import styled from "styled-components";
@@ -60,6 +61,7 @@ export default function ContactUs() {
   const [name, setName] = useState("");
   const [sujet, setSujet] = useState("");
   const [email, setEmail] = useState("");
+  const [t] = useTranslation("global");
 
   const handleValueChange = useCallback((event) => {
     setValue(event.target.value);
@@ -157,8 +159,8 @@ export default function ContactUs() {
   };
   const content = (
     <div>
-      <p>Utlisez la reconnaissance Vocale,</p>
-      <p>pour me laisser un message.</p>
+      <p> {t("contact.reconnaissance")} </p>
+      <p> {t("contact.vocaleMessage")} </p>
     </div>
   );
 
@@ -171,7 +173,7 @@ export default function ContactUs() {
     });
   };
   return (
-    <section className="form" id=" contact">
+    <section className="form" id="contact">
       <Container>
         <Modal
           title="Reconnaissance Vocale"
@@ -184,12 +186,12 @@ export default function ContactUs() {
             micro={(micros) => setMicroOff(micros)}
           />
         </Modal>
-        <H2> Contact </H2>
+        <H2>   {t("contact.contacts")} </H2>
         <Row className="align-items-center">
           <Col xs="12" sm="12" md="12" lg="5">
-            <H6>Vous souhaitez me contacter ?</H6>
+            <H6>{t("contact.mecontacter")}</H6>
             <P>
-              Remplissez ce formulaire, je reviendrais vers vous au plus vite{" "}
+            {t("contact.remplire")}
             </P>
 
             <Form className="contact-form" onSubmit={handeSubmit}>
@@ -199,19 +201,19 @@ export default function ContactUs() {
                     type="text"
                     name="user_name"
                     id="name"
-                    placeholder="Nom*"
+                    placeholder= {t("contact.nom")}
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
                 </Form.Group>
 
                 <Form.Group as={Col}>
-                   <Form.Label  id="not-mail">Email non valide</Form.Label>
+                   <Form.Label  id="not-mail">{t("contact.emailNonValide")} </Form.Label>
                   <Form.Control
                     type="email"
                     name="user_email"
                     id="email"
-                    placeholder="Email*"
+                    placeholder={t("contact.email")}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
@@ -223,7 +225,7 @@ export default function ContactUs() {
                     type="text"
                     name="user_sujet"
                     id="sujet"
-                    placeholder="Sujet*"
+                    placeholder={t("contact.sujet")}
                     value={sujet}
                     onChange={(e) => setSujet(e.target.value)}
                   />
@@ -231,7 +233,7 @@ export default function ContactUs() {
               </Form.Row>
 
               <Form.Group>
-                <Popover content={content} title="Envie de changement ?">
+                <Popover content={content} title={t("contact.changement")}>
                   <Button
                     type="primary"
                     icon={<AudioOutlined />}
@@ -253,11 +255,11 @@ export default function ContactUs() {
                   rows={4}
                   value={value}
                   onChange={handleValueChange}
-                  placeholder="Votre message*"
+                  placeholder={t("contact.message")}
                 />
               </Form.Group>
               <Button type="primary submit" value="Send" onClick={handeSubmit}>
-                Envoyer
+              {t("contact.envoyer")}
               </Button>
             </Form>
             <div className="form-message"></div>

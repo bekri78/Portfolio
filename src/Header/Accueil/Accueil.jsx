@@ -1,5 +1,6 @@
 import React from "react";
 import "./Accueil.css";
+import { useTranslation } from "react-i18next";
 import Homme from "./ImageAccueil/homme.png";
 import Cplus from "./ImageAccueil/javascript.png";
 import Loop from "./ImageAccueil/loop.png";
@@ -46,8 +47,9 @@ var animation = {
   opacity: 1,
 };
 function Accueil(props) {
+  const [t] = useTranslation("global");
   return (
-    <section className="frelencer_banner_area" id=" home">
+    <section className="frelencer_banner_area" id="home">
       <div className="home_bubble">
         <div className="bubble b_one"></div>
         <div className="bubble b_two"></div>
@@ -69,8 +71,8 @@ function Accueil(props) {
             <div className="frelencer_content">
               <div className="react-reveal fadeInUp t_color" style={animation}>
                 <Name>
-                  Héy ! <br></br>Je suis Bekri Mehdi Developpeur
-                  <span style={Front}> Front-end</span>
+                {t("home.introAccueil")} <br></br>{t("home.introAccueil2")}
+                  <span style={Front}>{t("home.introAccueil3")}</span>
                 </Name>
               </div>
 
@@ -85,7 +87,7 @@ function Accueil(props) {
               >
                 <span className="baniere">
                   <font style={{ verticalAlign: "inherit" }}>
-                    Je crée des applications et sites web{" "}
+                  {t("home.introbanderole")}{" "}
                   </font>
                 </span>
               </h4>
@@ -99,7 +101,7 @@ function Accueil(props) {
                   opacity: 1,
                 }}
               >
-                <font style={{ verticalAlign: "inherit" }}>Engagez moi</font>
+                <font style={{ verticalAlign: "inherit" }}>{t("home.introbtn")}</font>
               </a>
             </div>
           </Col>

@@ -1,9 +1,11 @@
 import React from "react";
 import "./Portfolio.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 import CardPortfolio from "./Card/Card.jsx";
 function Portfolio() {
+    const [t] = useTranslation("global");
   const H6 = styled.h6`
     vertical-align: inherit;
     font-size: 14px;
@@ -27,8 +29,8 @@ function Portfolio() {
         <Row>
           <Col>
             <div className="section_title_two text-center">
-              <H6>Mon portfolio</H6>
-              <H2> Certains de mes derniers travaux.</H2>
+              <H6>{t("portfolio.monPortfolio")}</H6>
+              <H2> {t("portfolio.travaux")}</H2>
             </div>
           </Col>
         </Row>

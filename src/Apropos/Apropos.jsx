@@ -1,5 +1,6 @@
 import React from "react";
 import "./Apropos.css";
+import { useTranslation } from "react-i18next";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import styled from "styled-components";
 import Moi from "./ImgApropos/Moi.png";
@@ -9,6 +10,7 @@ import "aos/dist/aos.css";
 AOS.init();
 
 function Apropos() {
+  const [t] = useTranslation("global");
   const H6 = styled.h6`
     vertical-align: inherit;
     font-size: 14px;
@@ -49,21 +51,13 @@ function Apropos() {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <H6>A propos de moi</H6>
-            <H2> Mon parcours </H2>
+            <H6>{t("apropos.moi")}</H6>
+            <H2> {t("apropos.parcours")} </H2>
             <P>
-              {" "}
-              Conducteur de train à la SNCF, j'ai toujours été attiré
-              par l'innovation et la digitalisation dans mon entreprise. C'est
-              ce qui ma poussé a entamer une formation hors temps de travail sur
-              la plateforme Openclassrooms, afin de me former au developpement
-              Front-End{" "}
+            {t("apropos.descriptionApropos1")} 
             </P>
             <P>
-              J'ai par la suite engagé une reconversion professionnel
-              à la WILD CODE SCOOL sur les technologies
-              REACT/NODE afin de parfaire mes connaissances
-              dans le domaine du front et du web
+            {t("apropos.descriptionApropos2")} 
             </P>
             <Button
               style={{ marginTop: "10px" }}
@@ -73,12 +67,12 @@ function Apropos() {
               className="btn"
               download
             >
-              Telecharger mon CV
+               {t("apropos.telecharger")} 
             </Button>
           </div>
         </Col>
       </Row>
-      <div id="contact"></div>
+     
     </Container>
   );
 }

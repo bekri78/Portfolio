@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Header from "./Header/header.jsx";
 import Accueil from "./Header/Accueil/Accueil.jsx";
 import Service from "./Service/Service.jsx";
@@ -31,7 +32,11 @@ function getInitialTheme() {
 }
 function App() {
   const [theme, setTheme] = useState(getInitialTheme);
-
+  const [t, i18n] = useTranslation("global");
+  const changeLang = (lng) => {
+    console.log(lng);
+    i18n.changeLanguage(lng);
+  };
   useEffect(() => {
     storage.setItem("theme", JSON.stringify(theme));
   }, [theme]);
@@ -42,6 +47,7 @@ function App() {
       <div className="App">
         <Header
           changeWord={(word) => setTheme((theme.mode = { mode: word }))}
+          changeLng={(lng) => changeLang(lng)}
         />
         <Accueil />
         <Service />

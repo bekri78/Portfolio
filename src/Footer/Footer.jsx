@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import "./Footer.css";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -25,6 +26,7 @@ const P = styled.p`
 `;
 
 export default function Footer() {
+  const [t] = useTranslation("global");
   return (
     <section className="footer-area-two">
       <Container style={{ marginTop: "0px" }}>
@@ -70,8 +72,8 @@ export default function Footer() {
             </ul>
           </Col>
           <Col sm="8" className="text-right">
-            <H6>Fait en React par mes soins</H6>
-            <P>© 2021 BEKRI Mehdi - Libre de droit </P>
+            <H6>{t("footer.faitEnReact")}</H6>
+            <P>© 2021 BEKRI Mehdi - {t("footer.libre")} </P>
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,83 @@
+{
+    "header": {
+      "accueil":"Home",
+      "service": "Service",
+      "portfolio": "Portfolio",
+      "skills": "Skills",
+      "apropos": "In regards to",
+      "carte": "Map",
+      "contact": "Contact",
+      "theme": "Theme",
+      "langue": "language"
+    },
+    "home": {
+      "introAccueil": "Hey !",
+      "introAccueil2": "I am Mehdi  ",
+      "introAccueil3": " Front-end developer",
+      "introbanderole": "I CREATE APPLICATIONS AND WEBSITES",
+      "introbtn": "Hire me"
+    },
+    "info": {
+      "ceQueJeFais": "WHAT I DO ?",
+      "solution": "Innovative Solutions To Digitize Your Business",
+      "infoMoi": "I am Mehdi, a front-end developer based in Ile-De-France. I specialize in interface and web application development to digitize your business.",
+      "ux": "design UX and UI",
+      "ui": "Responsive web application design",
+      "analyse": "Business problematic analysis"
+    },
+    "portfolio": {
+      "monPortfolio": "MY PORTFOLIO",
+      "travaux": "Some Of My Latest Works.",
+      "alphaB": " In France, 6 to 8% of the population is affected by disorders called 'Dys': dyslexia, dyspraxia, dysphasia. This web application aims to help people in difficulty. Tech For Good Project.",
+      "pompe": "Single Page with a Form linked to a google Sheets to retrieve information from potential customers",
+      "registre": "Digitalization of the business process allowing agents to enter their working hours, allows the manager to optimize his time on the formalization of the data to be processed at the end of the month",
+      "interface": "Digitization of the execution procedures in the profession that I have to exercise, suppression of the radio communications by an interface of follow-up of the maneuvers of the trains.",
+      "simpson": "Simpson API connection exercise, to display the list of characters and update it with the use of useEffect",
+      "food": "Restaurant reviews web app that lists establishments based on your location",
+      "citation": "First project in javascript, the goal being to randomly generate a sentence by combining several pieces of sentences, while keeping a meaning. Quote generator on the MIB theme",
+      "onePiece": "turn-based games on the theme of the famous manga One Piece",
+      "chalet": "Wordpress site for the sale of chalets in Courchevel, study project, this site is fictitious"
+    },
+    "competence": {
+      "mescompetences": "MY FEATURED SKILLS",
+      "interessent": "Some Interesting Facts About Me.",
+      "descriptionCompetence": "Front-end oriented, I have a strong interest in web applications that improve, modernize and facilitate the work of employees in a company. It is with this in mind that I imagine and design web applications. In addition, this vision of digitalization in a company naturally pushes me to use back-end resources in my projects.",
+      "recherche": "Search for a skill"
+    },
+    "apropos": {
+      "moi": "ABOUT ME",
+      "parcours": "My career",
+      "descriptionApropos1": "SNCF train driver, I have always been attracted by innovation and digitization in my company. This is what prompted me to start a non-working time training on the Openclassrooms platform, in order to train myself in Front-End development.",
+      "descriptionApropos2": "I then undertook a professional retraining at WILD CODE SCOOL on REACT / NODE technologies in order to perfect my knowledge in the field of the front line and the web",
+      "telecharger": "Download my CV"
+    },
+    "map": {
+      "distance": "Distance",
+      "explication1": "Are you a recruiter or a future employee and want to meet me?",
+      "explication2": "I give you the possibility to enter your address in order to see the different transport solutions, the best suited to find us.",
+      "explication3": "See you soon.",
+      "adresse": "Enter an address ...",
+      "position": "Use your position",
+      "selection": "Your selection",
+      "recherche": "I'm looking for the best routes ..."
+    },
+    "contact": {
+      "contacts": "Contact",
+      "mecontacter": "WOULD YOU LIKE TO CONTACT ME?",
+      "remplire": "Fill out this form, I will get back to you as soon as possible.",
+      "nom": "Name",
+      "email": "Email",
+      "sujet": "subject",
+      "message": "Your message",
+      "envoyer": "Send",
+      "changement":"Desire for change ?",
+    "emailNonValide":"Invalid email",
+    "reconnaissance":"Use voice recognition,",
+    "vocaleMessage":"to leave me a message."
+    },
+    "footer": {
+      "faitEnReact": "Made in React by me",
+      "libre": "ROYALTY FREE"
+    }
+  }
+  

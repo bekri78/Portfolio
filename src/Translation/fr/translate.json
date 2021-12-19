@@ -1,0 +1,84 @@
+{
+  "header": {
+    "accueil":"Accueil",
+    "service": "Service",
+    "portfolio": "Portfolio",
+    "skills": "Skills",
+    "apropos": "A propos",
+    "carte": "Carte",
+    "contact": "Contact",
+    "theme": "Theme",
+    "langue": "Langue"
+  },
+  "home": {
+    "introAccueil": "Hey !",
+    "introAccueil2": "Je suis Mehdi  ",
+    "introAccueil3": " Developpeur Front-end",
+    "introbanderole": "JE CRÉE DES APPLICATIONS ET SITES WEB",
+    "introbtn": "Engagez moi"
+  },
+  "info": {
+    "ceQueJeFais": "CE QUE JE FAIS ?",
+    "solution": "Des Solutions Innovantes Pour Digitaliser Votre Entreprise",
+    "infoMoi": "Je suis Mehdi, un developpeur front basé en Ile-De-France. Je me spécialise dans l'interface et le developpement d'application web pour digitaliser votre entreprise.",
+    "ux": "Conception UX et UI",
+    "ui": "Conception d'applications web responsives",
+    "analyse": "Analyse des  problematiques metier"
+  },
+  "portfolio": {
+    "monPortfolio": "MON PORTFOLIO",
+    "travaux": "Certains De Mes Derniers Travaux.",
+    "alphaB": "En France, 6 à 8% de la population est concernée par des troubles appelés 'Dys': dyslexies, dyspraxie, dysphasie. Cette application web a pour but d'aider les personnes en difficultés. Tech For Good Project.",
+    "pompe": "Single Page avec un Formulaire relier a un google Sheets pour recuperer les informations de clients potentiels",
+    "registre": "Digtalisation processus metier permettant aux agents d'entrer leurs heures de travails , permet au manager d'optimiser son temps sur la formlalisation des données a traiter chaque fin de mois",
+    "interface": "Digitalisation des procedures d'execution dans le metier que j'ai exercer, suppression des communications par radio par une interface de suivi des manoeuvres des trains.",
+    "simpson": "Exercice de connexion a l'API Simpson , devant afficher la liste des personnages et actualiser celle ci avec l'utilisation du useEffect",
+    "food": "App web d'avis de restaurant qui listes les etablissements suivant votre position geographique",
+    "citation": "Premier project en javascript , le but étant de generer aleatoirement une phrase en combinant plusieurs bouts de phrases, tout en gardant un sens. Generateur de citation sur le theme MIB",
+    "onePiece": "jeux tour par tour sur la theme du celebre manga One piece",
+    "chalet": "Site wordpress de vente de chalets a Courchevel, project d'etude , ce site est factice"
+  },
+  "competence": {
+    "mescompetences": "MES COMPÉTENCES EN VEDETTE",
+    "interessent": "Quelques Faits Intéressants Sur Moi.",
+    "descriptionCompetence": "Orienté Front-end, j'ai un fort interêt pour les applications web qui permettent d'ameliorer, moderniser et faciliter le travail des collaborateurs dans une entreprise. C'est dans cette optique que j'imagine et conçois des applications web. Par ailleurs cette vision de la digitalisation dans une entreprise me pousse naturellement a utiliser des ressources back-end dans mes projets.",
+    "recherche": "Rechercher une compétence"
+  },
+  "apropos": {
+    "moi": "A PROPOS DE MOI",
+    "parcours": "Mon Parcours",
+    "descriptionApropos1": "Conducteur de train à la SNCF, j'ai toujours été attiré par l'innovation et la digitalisation dans mon entreprise. C'est ce qui ma poussé a entamer une formation hors temps de travail sur la plateforme Openclassrooms, afin de me former au developpement Front-End",
+    "descriptionApropos2": "J'ai par la suite engagé une reconversion professionnel à la WILD CODE SCOOL sur les technologies REACT/NODE afin de parfaire mes connaissances dans le domaine du front et du web",
+    "telecharger": "Telecharger mon CV"
+  },
+  "map": {
+    "distance": "Distance",
+    "explication1": "Vous êtes recruteur , ou futur collaborateur et souhaitez me rencontrer ?",
+    "explication2": "Je vous donne la possiblité d'entrer votre adresse afin de voir les différentes solutions de transports, les mieux adaptées pour nous retrouver.",
+    "explication3": "À très vite.",
+    "adresse": "Entrer une adresse...",
+    "position": "Utilisez votre position",
+    "selection": "Votre selection",
+    "recherche": "Je recherche les meilleurs itinéraires..."
+     
+     
+  },
+  "contact": {
+    "contacts": "Contact",
+    "mecontacter": "VOUS SOUHAITEZ ME CONTACTER ?",
+    "remplire": "Remplissez ce formulaire, je reviendrais vers vous au plus vite.",
+    "nom": "Nom",
+    "email": "Email",
+    "sujet": "Sujet",
+    "message": "Votre message",
+    "envoyer": "Envoyer",
+    "changement":"Envie de changement ?",
+    "emailNonValide":"Email non valide",
+    "reconnaissance":"Utilisez la reconnaissance Vocale,",
+    "vocaleMessage":"pour me laisser un message."
+  },
+  "footer": {
+    "faitEnReact": "Fait en React par mes soins",
+    "libre": "LIBRE DE DROIT"
+  }
+}

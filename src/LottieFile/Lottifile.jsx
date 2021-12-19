@@ -1,7 +1,9 @@
 import React , {useEffect, useRef} from 'react'
 import lottie from 'lottie-web'
 import  './Lottifie.css'
+import { useTranslation } from "react-i18next";
 export default function Lottifile() {
+    const [t] = useTranslation("global");
 const container = useRef(null)
     useEffect(() => {
         lottie.loadAnimation({
@@ -15,7 +17,7 @@ const container = useRef(null)
     return (
         <>
         <div className="container-Lotti" ref={container}/>
-        <p style={{ textAlign:'center'}}>Je recherche les meilleurs itinéraires...</p>
+        <p style={{ textAlign:'center'}}>  {t("map.recherche")}</p>
         </>
          
             

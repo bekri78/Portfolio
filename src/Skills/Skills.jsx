@@ -8,7 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Search from "./Search";
 import Telephone from "./telephone.svg";
-
+import { useTranslation } from "react-i18next";
 AOS.init();
 
 const H6 = styled.h6`
@@ -39,8 +39,8 @@ margin-top: 0;
 // style={{backgroundColor: 'white'}}
 
 function Skills() {
-  const [skill, setSkills] = useState(dataSkills);
   const [searchValue, setSearchValue] = useState("");
+  const [t] = useTranslation("global");
   const setSearchValuee = (e) => {
     setSearchValue(e.target.value);
   };
@@ -52,28 +52,18 @@ function Skills() {
           <Col xs="12" sm="12" md="6" lg="6">
             <div className="skill_content_two">
               <div className="section_title_two">
-                <H6> Mes compétences en vedette </H6>
-                <H2> Quelques faits intéressants sur moi.</H2>
+                <H6> {t("competence.mescompetences")}</H6>
+                <H2> {t("competence.interessent")}</H2>
               </div>
-              <Text>
-                {" "}
-                Orienté Front-end, j'ai un fort interêt pour les applications
-                web qui permettent d'ameliorer, moderniser et faciliter le
-                travail des collaborateurs dans une entreprise. C'est dans cette
-                optique que j'imagine et conçois des applications web. Par
-                ailleurs cette vision de la digitalisation dans une entreprise
-                me pousse naturellement a utiliser des ressources back-end dans
-                mes projets.{" "}
-              </Text>
+              <Text>{t("competence.descriptionCompetence")}</Text>
               <Row>
                 <Search setSearchValue={setSearchValuee} />
               </Row>
               <Row>
-                {skill
+                {dataSkills
                   .filter((name) => name.includes(searchValue))
                   .map((skill, index) => (
-                    <Buttonskills key={index} competences={skill} >
-                    
+                    <Buttonskills key={index} competences={skill}>
                       {skill}
                     </Buttonskills>
                   ))}

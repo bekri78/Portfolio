@@ -1,0 +1,83 @@
+{
+    "header": {
+      "accueil":"Startseite",
+      "service": "Service",
+      "portfolio": "Portfolio",
+      "skills": "Fähigkeiten",
+      "apropos": "In Bezug auf",
+      "carte": "Karte",
+      "contact": "Kontakt",
+      "theme": "Thema",
+      "langue": "Sprache"
+    },
+    "home": {
+        "introAccueil": "Hallo !",
+        "introAccueil2": "ich bin Mehdi",
+        "introAccueil3": "Entwickler für Benutzeroberflächen",
+      "introbanderole": "ICH ERSTELLE ANWENDUNGEN UND WEBSITES",
+      "introbtn": "Stellt mich ein"
+    },
+    "info": {
+      "ceQueJeFais": "WAS ICH MACHE ?",
+      "solution": "Innovative Lösungen zur Digitalisierung Ihres Unternehmens",
+      "infoMoi": "Ich bin Mehdi, ein Front-End-Entwickler mit Sitz in Ile-De-France. Ich bin spezialisiert auf die Entwicklung von Schnittstellen und Webanwendungen zur Digitalisierung Ihres Unternehmens.",
+      "ux": "Entwurf UX und UI",
+      "ui": "Responsives Webanwendungsdesign",
+      "analyse": "Geschäftsproblemanalyse"
+    },
+    "portfolio": {
+      "monPortfolio": "MEIN PORTFOLIO",
+      "travaux": "Einige meiner neuesten Werke.",
+      "alphaB": "In Frankreich sind 6 bis 8 % der Bevölkerung von Störungen betroffen, die als „Dys“ bezeichnet werden: Legasthenie, Dyspraxie, Dysphasie. Diese Webanwendung soll Menschen in Schwierigkeiten helfen. Tech für gutes Projekt.",
+      "pompe": "Einzelne Seite mit einem Formular, das mit einer Google-Tabelle verknüpft ist, um Informationen von potenziellen Kunden abzurufen",
+      "registre": "Die Digitalisierung des Geschäftsprozesses, die es den Agenten ermöglicht, ihre Arbeitszeiten einzugeben, ermöglicht es dem Manager, seine Zeit bei der Formalisierung der am Ende des Monats zu verarbeitenden Daten zu optimieren",
+      "interface": "Digitalisierung der Vollstreckungsverfahren in dem von mir auszuübenden Beruf, Unterdrückung der Funkkommunikation durch eine Schnittstelle zur Verfolgung der Fahrmanöver der Züge.",
+      "simpson": "Simpson API-Verbindungsübung, um die Liste der Zeichen anzuzeigen und mit useEffect zu aktualisieren",
+      "food": "Web-App für Restaurantbewertungen, die Betriebe basierend auf Ihrem Standort auflistet",
+      "citation": "Erstes Projekt in Javascript, mit dem Ziel, einen Satz zufällig zu generieren, indem mehrere Satzteile kombiniert werden, während eine Bedeutung beibehalten wird. Angebotsgenerator zum Thema MIB",
+      "onePiece": "rundenbasierte Spiele zum Thema des berühmten Manga One Piece",
+      "chalet": "Wordpress-Site für den Verkauf von Chalets in Courchevel, Studienprojekt, diese Site ist frei erfunden"
+    },
+    "competence": {
+      "mescompetences": "MEINE AUSGEWÄHLTE FÄHIGKEITEN",
+      "interessent": "Einige interessante Fakten über mich.",
+      "descriptionCompetence": "Frontend-orientiert habe ich ein starkes Interesse an Webanwendungen, die die Arbeit der Mitarbeiter in einem Unternehmen verbessern, modernisieren und erleichtern. In diesem Sinne konzipiere und entwerfe ich Webanwendungen. Außerdem treibt mich diese Vision der Digitalisierung in einem Unternehmen natürlich dazu, Backend-Ressourcen in meinen Projekten einzusetzen.",
+      "recherche": "Suche nach einer Fähigkeit"
+    },
+    "apropos": {
+      "moi": "ÜBER MICH",
+      "parcours": "Meine Reise",
+      "descriptionApropos1": "SNCF Lokführer, Innovation und Digitalisierung in meinem Unternehmen haben mich schon immer fasziniert. Dies hat mich dazu bewogen, eine arbeitsfreie Ausbildung auf der Openclassrooms-Plattform zu starten, um mich in der Front-End-Entwicklung weiterzubilden.",
+      "descriptionApropos2": "Anschließend habe ich bei WILD CODE SCOOL eine berufliche Umschulung zu REACT / NODE-Technologien absolviert, um meine Kenntnisse im Bereich Frontline und Web zu perfektionieren",
+      "telecharger": "Laden Sie meinen Lebenslauf herunter"
+    },
+    "map": {
+      "distance": "Distanz",
+      "explication1": "Sie sind Recruiter oder zukünftiger Mitarbeiter und möchten mich kennenlernen?",
+      "explication2": "Ich gebe Ihnen die Möglichkeit, Ihre Adresse einzugeben, um die verschiedenen Transportlösungen zu sehen, die am besten zu uns passen.",
+      "explication3": "Seh dich später.",
+      "adresse": "Gib eine Adresse ein ...",
+      "position": "Nutze deine Position",
+      "selection": "Deine Auswahl",
+      "recherche": "Ich suche die besten Routen..."
+    },
+    "contact": {
+      "contacts": "Kontakt",
+      "mecontacter": "MÖCHTEN SIE MICH KONTAKTIEREN?",
+      "remplire": "Füllen Sie dieses Formular aus, ich melde mich so schnell wie möglich bei Ihnen.",
+      "nom": "Nachname",
+      "email": "Email",
+      "sujet": "Thema",
+      "message": "Deine Nachricht",
+      "envoyer": "Senden",
+      "changement":"Lust auf Veränderung?",
+      "emailNonValide":"Ungültige E-Mail",
+      "reconnaissance":"Spracherkennung verwenden,",
+      "vocaleMessage":"um mir eine Nachricht zu hinterlassen."
+    },
+    "footer": {
+      "faitEnReact": "Hergestellt in React von mir",
+      "libre": "GEBÜHRENFREI"
+    }
+  }
+  

@@ -96,7 +96,17 @@ p {
     color: #495057;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
+    pointer-events: none;
+    cursor: default;
+     
 }
+
+.nav-item{
+    margin-left: 0;
+}
+ #myTab{
+     margin-left: 0;
+ }
 
 .service_content .nav-tabs li a {
     font-weight: 600;

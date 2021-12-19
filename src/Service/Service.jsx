@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import Image from "./ImageService/service.67717712.svg";
 import "./Service.css";
 import styled from "styled-components";
@@ -31,6 +32,7 @@ margin: 10px;
 // console.log(color.props.theme.mode)
 
 function Service() {
+  const [t] = useTranslation("global");
   return (
     <Container fluid className="containerService" id="service">
       <Row className="flex-column-reverse flex-lg-row">
@@ -43,16 +45,14 @@ function Service() {
         <Col xs="12" md="12" lg="5">
           <div className="service_content">
             <div className="section_title_two">
-              <Title>Ce que je fais ?</Title>
+              <Title>{t("info.ceQueJeFais")}</Title>
               <TitleTwo>
-                Des solutions innovantes pour digitaliser votre entreprise
+              {t("info.solution")}
               </TitleTwo>
             </div>
             <P>
               {" "}
-              Je suis Mehdi, un developpeur front basé en Ile-De-France. Je me
-              spécialise dans l'interface et le developpement d'application web
-              pour digitaliser votre entreprise.{" "}
+              {t("info.infoMoi")}
             </P>
 
             <ul className="nav nav-tabs" id="myTab" role="tablist">
@@ -66,7 +66,7 @@ function Service() {
                   aria-controls="home"
                   aria-selected="true"
                 >
-                  Conception UX et UI
+                  {t("info.ux")}
                 </a>
               </li>
 
@@ -80,7 +80,7 @@ function Service() {
                   aria-controls="profile"
                   aria-selected="false"
                 >
-                  Conception d'applications web responsives
+                   {t("info.ui")}
                 </a>
               </li>
 
@@ -94,7 +94,7 @@ function Service() {
                   aria-controls="contact"
                   aria-selected="false"
                 >
-                  Analyse problematiques metier
+                 {t("info.analyse")}
                 </a>
               </li>
             </ul>

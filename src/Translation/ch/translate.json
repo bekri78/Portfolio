@@ -1,0 +1,83 @@
+{
+    "header": {
+      "accueil":"主页",
+      "service": "服务",
+      "portfolio": "文件夹",
+      "skills": "技能",
+      "apropos": "关于",
+      "carte": "卡片",
+      "contact": "接触",
+      "theme": "主题",
+      "langue": "语"
+    },
+    "home": {
+        "introAccueil": "嘿 !",
+        "introAccueil2": "我是 Mehdi",
+        "introAccueil3": " 前端开发人员",
+      "introbanderole": "我创建应用程序和网站",
+      "introbtn": "雇用我"
+    },
+    "info": {
+      "ceQueJeFais": "我所做的 ？",
+      "solution": "使您的业务数字化的创新解决方案",
+      "infoMoi": "我是 Mehdi，位于法兰西岛的前端开发人员。我专注于界面和 Web 应用程序开发，以将您的业务数字化。",
+      "ux": "设计 UX 是 UI",
+      "ui": "响应式 网络 应用程序设计",
+      "analyse": "业务问题分析"
+    },
+    "portfolio": {
+      "monPortfolio": "我的投资组合",
+      "travaux": "我的一些最新作品。",
+      "alphaB": "在法国，6% 到 8% 的人口受到称为“Dys”的疾病的影响：阅读障碍、使用障碍、语言障碍。这个网络应用程序旨在帮助有困难的人。 Tech For Good 项目。",
+      "pompe": "带有链接到谷歌表格的表单的单页，以从潜在客户那里检索信息",
+      "registre": "业务流程的数字化允许代理输入他们的工作时间，允许经理优化他在月底处理数据的时间",
+      "interface": "我必须行使的专业执行程序的数字化，通过跟踪火车操作的接口抑制无线电通信。",
+      "simpson": "连接到 Simpson API 的练习，显示字符列表并使用 useEffect 更新它",
+      "food": "餐厅评论网络应用程序，可根据您的位置列出场所",
+      "citation": "javascript中的第一个项目，目标是通过组合几个句子来随机生成一个句子，同时保持一个意思。 MIB 主题的报价生成器",
+      "onePiece": "以著名漫画《海贼王》为主题的回合制游戏",
+      "chalet": "用于在高雪维尔出售小木屋的 Wordpress 网站，研究项目，该网站是虚构的"
+    },
+    "competence": {
+      "mescompetences": "我的特色技能",
+      "interessent": "关于我的一些有趣的事实。",
+      "descriptionCompetence": "面向前端，我对 Web 应用程序有浓厚的兴趣，这些应用程序可以改进、现代化和促进公司员工的工作。正是考虑到这一点，我才想象和设计 Web 应用程序。此外，公司的这种数字化愿景自然会促使我在项目中使用后端资源。",
+      "recherche": "搜索技能"
+    },
+    "apropos": {
+      "moi": "关于我",
+      "parcours": "我的旅途",
+      "descriptionApropos1": "SNCF火车司机，我一直被我公司的创新和数字化所吸引。这就是促使我在 Openclassrooms 平台上开始非工作时间培训的原因，以培训自己的前端开发。",
+      "descriptionApropos2": "然后我在 WILD CODE SCOOL 接受了关于 REACT / NODE 技术的专业再培训，以完善我在前线和网络领域的知识",
+      "telecharger": "下载我的简历"
+    },
+    "map": {
+      "distance": "距离",
+      "explication1": "您是招聘人员还是未来的员工，想认识我吗？",
+      "explication2": "我让您可以输入您的地址，以便查看最适合找到我们的不同运输解决方案。",
+      "explication3": "再见.",
+      "adresse": "输入地址...",
+      "position": "使用你的位置",
+      "selection": "您的选择",
+      "recherche": "我正在寻找最佳路线..."
+    },
+    "contact": {
+      "contacts": "接触",
+      "mecontacter": "你想联系我吗？",
+      "remplire": "填写此表格，我会尽快回复您",
+      "nom": "姓",
+      "email": "电子邮件",
+      "sujet": "话题",
+      "message": "您的留言",
+      "envoyer": "发送",
+      "changement":"渴望改变？",
+      "emailNonValide":"不合规电邮",
+      "reconnaissance":"使用语音识别，",
+      "vocaleMessage":"给我留言。"
+    },
+    "footer": {
+      "faitEnReact": "我在 React 中制造",
+      "libre": "免版税"
+    }
+  }
+  

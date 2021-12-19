@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import usePlacesAutocomplete from "@atomap/use-places-autocomplete";
+import { useTranslation } from "react-i18next";
 import "./InputSearch.css";
 import Button from "react-bootstrap/Button";
 import Location from "../Location/Location";
@@ -14,7 +15,7 @@ export default function PredictionsOnInputChange(props) {
   const [latitudeUser, setLatitudeUser] = useState(null);
   const [longitudeUser, setLongitudeUser] = useState(null);
  
-  
+  const [t] = useTranslation("global");
 
 
   useEffect(() => {
@@ -70,7 +71,7 @@ export default function PredictionsOnInputChange(props) {
       <form id="forme">
         <input
           id="inputAsress"
-          placeholder="Entrez une adresse..."
+          placeholder= {t("map.adresse")}
           name="predictionSearch"
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
@@ -104,10 +105,10 @@ export default function PredictionsOnInputChange(props) {
           
           disabled={longitudeUser && latitudeUser !== null ? false : true }
         >
-          Utiliser  votre position
+          {t("map.position")}
         </Button>
         <p className="adresse">
-          Votre Selection : {selectedPrediction || "Aucune"}
+          {t("map.selection")} : {selectedPrediction || "Aucune"}
         </p>
       </form>
       <Location
